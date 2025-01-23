@@ -408,7 +408,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Music, Mic, Radio, Headphones, BookOpen } from "lucide-react";
 import Link from "next/link";
 import { MessageCircle } from "lucide-react"; // Icon for WhatsApp-style button
-import { Carousel, Carousel2 } from "@/components/ui/carousel";
+import { Carousel, Carousel1, Carousel2 } from "@/components/ui/carousel";
 
 export default function Home() {
   return (
@@ -525,7 +525,7 @@ export default function Home() {
       <h1 className="text-center text-3xl font-bold my-8">
         Glimpse of our Studio
       </h1>
-      <Carousel />
+      <Carousel1 />
     </section>
 
     <section>

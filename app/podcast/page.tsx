@@ -19,6 +19,7 @@ export default function PodcastPage() {
         <div className="relative z-10 text-center text-white max-w-3xl mx-auto px-4">
           <h1 className="text-4xl font-bold mb-4">Podcast Production</h1>
           <p className="text-xl">Professional podcast recording and production services</p>
+          
         </div>
       </section>
 

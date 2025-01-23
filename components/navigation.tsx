@@ -67,6 +67,7 @@ export function Navigation() {
   const links = [
     { href: "/", label: "Home" },
     { href: "/booking", label: "Book Now" },
+    { href: "/services", label: "Services Catalogue" },
     { href: "/podcast", label: "Podcast" },
     { href: "/recording", label: "Recording Sessions" },
     { href: "/rehearsal", label: "Rehearsal Space" },

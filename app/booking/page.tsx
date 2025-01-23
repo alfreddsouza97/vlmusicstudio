@@ -1,7 +1,9 @@
 "use client"
 
 import React, { useState } from 'react';
-import { Calendar, Send } from 'lucide-react';
+import { Calendar, Link, Send } from 'lucide-react';
+
+
 
 interface CourseOption {
   id: string;
@@ -57,6 +59,12 @@ function Booking() {
           <h2 className="text-2xl font-bold text-gray-900 text-center mb-8">
             Service Booking
           </h2>
+
+          <h2 className="text-2xl font-bold text-gray-900 text-center mb-8">
+            Check our services catalogue before booking.
+          </h2>
+
+         
           
           <form onSubmit={handleSubmit} className="space-y-6">
             <div>
