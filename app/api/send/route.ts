@@ -76,7 +76,7 @@
 // }
 
 
-
+// last try
 
 import { NextResponse } from 'next/server';
 
@@ -87,16 +87,16 @@ export async function POST(request: Request) {
     const { name, email, phone, service, message } = body;
 
     if (!name || !email || !service || !message) {
-      return NextResponse.json(
-        { error: 'Missing required fields: name, email, service, and message are mandatory.' },
-        { status: 400 }
+      return new NextResponse(
+        JSON.stringify({ error: 'Missing required fields: name, email, service, and message are mandatory.' }),
+        { status: 400, headers: { 'Access-Control-Allow-Origin': '*' } }
       );
     }
 
     // Prepare email payload
     const emailData = {
       from: 'VL Studios <onboarding@resend.dev>',
-      to: ['alfreddsouza97@gmail.com'], // Replace with your email address to who you want to send to
+      to: ['vlmusicstudio@gmail.com'], // Replace with your email address to who you want to send to
       subject: 'New Contact Form Submission - VL Studios',
       html: `
         <h2>New Contact Form Submission</h2>
@@ -118,25 +118,27 @@ export async function POST(request: Request) {
       body: JSON.stringify(emailData),
     });
 
-    // Check for errors
     if (!response.ok) {
       const errorData = await response.json();
       console.error('Error response from Resend API:', errorData);
-      return NextResponse.json(
-        { error: errorData.message || 'Failed to send email' },
-        { status: response.status }
+      return new NextResponse(
+        JSON.stringify({ error: errorData.message || 'Failed to send email' }),
+        { status: response.status, headers: { 'Access-Control-Allow-Origin': '*' } }
       );
     }
 
     const responseData = await response.json();
 
-    // Respond with success
-    return NextResponse.json({ success: true, data: responseData });
+    // Respond with success and CORS headers
+    return new NextResponse(
+      JSON.stringify({ success: true, data: responseData }),
+      { status: 200, headers: { 'Access-Control-Allow-Origin': '*' } }
+    );
   } catch (error: any) {
     console.error('Error sending email:', error);
-    return NextResponse.json(
-      { error: error.message || 'Failed to send email' },
-      { status: 500 }
+    return new NextResponse(
+      JSON.stringify({ error: error.message || 'Failed to send email' }),
+      { status: 500, headers: { 'Access-Control-Allow-Origin': '*' } }
     );
   }
 }
