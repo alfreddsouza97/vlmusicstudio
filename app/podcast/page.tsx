@@ -100,7 +100,7 @@ export default function PodcastPage() {
           <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
             Get in touch with us to discuss your podcast project and how we can help bring your vision to life.
           </p>
-          <Link href="/contact">
+          <Link href="/booking">
             <Button size="lg">
               Book a Consultation
             </Button>

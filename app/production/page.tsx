@@ -156,7 +156,7 @@ export default function ProductionPage() {
           <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
             Let's work together to bring your musical vision to life with professional production.
           </p>
-          <Link href="/contact">
+          <Link href="/booking">
             <Button size="lg">
               Start Your Project
             </Button>

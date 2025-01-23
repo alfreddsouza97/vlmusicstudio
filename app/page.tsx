@@ -439,7 +439,7 @@ export default function Home() {
           <p className="text-xl mb-8">
             Professional Music Production & Recording Studio in Bangalore
           </p>
-          <Link href="/contact">
+          <Link href="/booking">
             <Button size="lg" className="bg-primary text-primary-foreground">
               Book a Session
               <ArrowRight className="ml-2 h-4 w-4" />

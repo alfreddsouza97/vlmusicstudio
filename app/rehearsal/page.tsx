@@ -64,8 +64,8 @@ export default function RehearsalPage() {
             {[
               {
                 name: "Small Room",
-                size: "20㎡",
-                capacity: "1-4 people",
+                // size: "20㎡",
+                capacity: "1-5 people",
                 features: [
                   "Basic PA System",
                   "Drum Kit",
@@ -73,11 +73,11 @@ export default function RehearsalPage() {
                   "Bass Amp",
                   "Microphones",
                 ],
-                price: "₹500/hour",
+                price: "₹550/hour",
               },
               {
                 name: "Medium Room",
-                size: "35㎡",
+                // size: "35㎡",
                 capacity: "4-6 people",
                 features: [
                   "Full PA System",
@@ -91,7 +91,7 @@ export default function RehearsalPage() {
               },
               {
                 name: "Large Room",
-                size: "50㎡",
+                // size: "50㎡",
                 capacity: "6-10 people",
                 features: [
                   "Premium PA System",
@@ -100,7 +100,7 @@ export default function RehearsalPage() {
                   "Bass Amp",
                   "Multiple Microphones",
                   "Recording Capability",
-                  "Keyboard/Piano",
+                  // "Keyboard/Piano",
                 ],
                 price: "₹1200/hour",
               },
@@ -109,7 +109,7 @@ export default function RehearsalPage() {
                 <div className="p-6">
                   <h3 className="text-2xl font-semibold mb-2">{room.name}</h3>
                   <div className="space-y-4">
-                    <p className="text-muted-foreground">Size: {room.size}</p>
+                    {/* <p className="text-muted-foreground">Size: {room.size}</p> */}
                     <p className="text-muted-foreground">Capacity: {room.capacity}</p>
                     <div>
                       <h4 className="font-semibold mb-2">Features:</h4>
@@ -137,7 +137,7 @@ export default function RehearsalPage() {
           <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
             Contact us to reserve your preferred rehearsal room and time slot.
           </p>
-          <Link href="/contact">
+          <Link href="/booking">
             <Button size="lg">
               Book Now
             </Button>

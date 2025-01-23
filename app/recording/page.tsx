@@ -129,7 +129,7 @@ export default function RecordingPage() {
           <p className="text-muted-foreground mb-8 max-w-2xl mx-auto">
             Contact us to book your recording session and bring your music to life with professional quality.
           </p>
-          <Link href="/contact">
+          <Link href="/booking">
             <Button size="lg">
               Book Recording Session
             </Button>
