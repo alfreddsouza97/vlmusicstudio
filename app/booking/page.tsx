@@ -1,7 +1,8 @@
 "use client"
 
 import React, { useState } from 'react';
-import { Calendar, Link, Send } from 'lucide-react';
+import { Calendar,  Send } from 'lucide-react';
+import Link from 'next/link';
 
 
 
@@ -54,6 +55,7 @@ function Booking() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-50 py-12 px-4 sm:px-6 lg:px-8">
+       
       <div className="max-w-md mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
         <div className="px-8 py-6">
           <h2 className="text-2xl font-bold text-gray-900 text-center mb-8">
