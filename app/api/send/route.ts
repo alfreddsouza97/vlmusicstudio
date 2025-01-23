@@ -102,6 +102,7 @@ export async function POST(request: Request): Promise<Response> {
       headers: {
         'Content-Type': 'application/json',
         Authorization: `Bearer ${RESEND_API_KEY}`,
+        'Access-Control-Allow-Origin': '*', // Update this to restrict origins as needed
       },
       body: JSON.stringify({
         from: 'VL Studios <onboarding@resend.dev>',
