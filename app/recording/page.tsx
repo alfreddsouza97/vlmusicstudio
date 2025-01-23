@@ -43,7 +43,8 @@ export default function RecordingPage() {
               },
               {
                 icon: Settings2,
-                title: "Pro Tools Setup",
+                // title: "Pro Tools Setup",
+                title: "Logic Pro X Setup",
                 description: "Industry-standard recording software and hardware",
               },
             ].map((feature, index) => (
