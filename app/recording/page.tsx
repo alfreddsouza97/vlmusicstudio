@@ -4,21 +4,21 @@ import Link from "next/link";
 
 //extra code -  experimental
 
-export function ContactUsButton() {
-  return (
-    <div className="text-center">
-      {/* Adding experimental break */}
-      <br />
+// export function ContactUsButton() {
+//   return (
+//     <div className="text-center">
+//       {/* Adding experimental break */}
+//       <br />
 
-      <Link legacyBehavior href="/booking">
-        <a className="w-full inline-block py-3 px-6 text-center bg-gray-600 text-white rounded-md shadow-md hover:bg-blue-700">
-          {/* Contact Us */}
-          Book your Service now
-        </a>
-      </Link>
-    </div>
-  );
-}
+//       <Link legacyBehavior href="/booking">
+//         <a className="w-full inline-block py-3 px-6 text-center bg-gray-600 text-white rounded-md shadow-md hover:bg-blue-700">
+//           {/* Contact Us */}
+//           Book your Service now
+//         </a>
+//       </Link>
+//     </div>
+//   );
+// }
 
 export default function RecordingPage() {
   return (
@@ -38,7 +38,7 @@ export default function RecordingPage() {
           <h1 className="text-4xl font-bold mb-4">Recording Sessions</h1>
           <p className="text-xl">State-of-the-art recording facilities for musicians</p>
           <br />
-          <ContactUsButton/>
+          {/* <ContactUsButton/> */}
         </div>
       </section>
 
