@@ -382,6 +382,7 @@ export default function ContactPage() {
                       <SelectItem value="production">Music Production</SelectItem>
                       <SelectItem value="lessons">Music Lessons</SelectItem>
                       <SelectItem value="karaoke">Karaoke Party Venue</SelectItem>
+                      <SelectItem value="classes">Music Classes</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
