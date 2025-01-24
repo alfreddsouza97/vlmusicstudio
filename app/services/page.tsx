@@ -764,6 +764,22 @@ import {
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
+
+//extra code -  experimental
+
+function ContactUsButton() {
+  return (
+    <div className="text-center">
+      <Link legacyBehavior href="/booking">
+        <a className="w-full inline-block py-3 px-6 text-center bg-blue-600 text-white rounded-md shadow-md hover:bg-blue-700">
+          {/* Contact Us */}
+          Book your Service now
+        </a>
+      </Link>
+    </div>
+  );
+}
+
 const services = [
   {
     title: "1. Audio Podcast",
@@ -1078,6 +1094,9 @@ export default function Services() {
           <h1 className="text-5xl font-bold mb-6">VL Studios</h1>
           <p className="text-xl mb-8">Professional Audio & Video Production Services</p>
           <Calendar className="w-12 h-12 mx-auto animate-bounce" />
+          {/* trying to add contact button that links to booking page */}
+          <br />
+          <ContactUsButton/>
         </div>
       </div>
 
@@ -1133,9 +1152,11 @@ export default function Services() {
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4">Book Your Session Today</h2>
           <p className="mb-8">50% advance payment required for booking. Contact us for availability.</p>
-          <Button variant="secondary" size="lg" className="font-semibold">
+          {/* <Button variant="secondary" size="lg" className="font-semibold">
             Contact Us
-          </Button>
+          </Button> */}
+
+          <ContactUsButton/>
         </div>
       </div>
     </main>
