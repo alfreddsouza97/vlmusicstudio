@@ -845,7 +845,7 @@ const services = [
       "https://i.pinimg.com/1200x/06/cc/8e/06cc8e506dc149f6442a6fe5700cf7de.jpg",
       "https://i.pinimg.com/1200x/1c/4b/e5/1c4be541bafe045ed7fae888525da035.jpg",
       "https://i.pinimg.com/1200x/59/0c/6d/590c6d0ca75b7c533ebaf9965f3e76ef.jpg",
-      "https://i.pinimg.com/1200x/d8/55/01/d85501ed715d1b2d5edcd5413e98b31b.jpg"
+      "https://i.pinimg.com/1200x/bc/62/c0/bc62c084d36754d37fdd8566d289ceac.jpg",
     ]
   },
   {
