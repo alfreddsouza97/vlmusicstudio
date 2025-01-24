@@ -27,7 +27,8 @@ const courses: CourseOption[] = [
   { id: '12', name: '10 hours Package for Jam Session', price: '₹5000' },
   { id: '13', name: '12db - Audios services', price: '₹2499' },
   { id: '14', name: 'Audio podcast Per hour', price: '₹1499' },
-  {id: '15', name: 'Karaoke Party Venue', price: '₹299'}
+  {id: '15', name: 'Karaoke Party Venue', price: '₹299'},
+  {id: '16', name: 'Music Classes - 3 Months', price: '₹10000'}
 ];
 
 //extra code -  experimental
