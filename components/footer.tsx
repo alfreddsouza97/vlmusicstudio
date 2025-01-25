@@ -394,7 +394,7 @@ export function Footer() {
             <span className="inline-flex items-center">
               Site by{" "}
               <a 
-                href="https://wa.me/9900272747/" 
+                href="http://wa.me/919900272747?text=hello%20Alfred,%20I%20am%20interested%20to%20know%20about%20web%20development%20services" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="ml-1 font-medium text-primary hover:text-primary/80 transition-colors duration-200 relative group"
