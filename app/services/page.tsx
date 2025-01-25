@@ -748,6 +748,7 @@
 
 //fixed aspect ratio - new - working
 
+//without SEO -- working
 
 "use client";
 
@@ -803,7 +804,7 @@ const services = [
       "https://i.pinimg.com/736x/7e/73/1f/7e731f6b9b4086c7a3356b3461e78812.jpg",
     ]
   },
-  // ... (keeping all other services data unchanged)
+  
   {
     title: "2. Podcast Audio & Video Production",
     price: "₹22,000.00",
@@ -1162,3 +1163,5 @@ export default function Services() {
     </main>
   );
 }
+
+

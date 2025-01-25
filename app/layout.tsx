@@ -41,8 +41,46 @@ import { MessageCircle } from "lucide-react"; // Icon for WhatsApp-style button
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'VL Studios | Professional Music Production & Recording',
-  description: 'Professional music production, recording, and mixing services in Bangalore. Led by Victor Logidasan.',
+  title: 'VL Music Studios | Professional Music Production & Recording in Bangalore',
+  description: 'Professional music production, recording, and mixing mastering, karaoke, music composing, podcast venue, karaoke party services in Koramangala, Bangalore. Led by Victor Logidasan.',
+  keywords: 'vl music studios, vl studios, vl music studio, victor logidasan, music studios in bangalore, audio production, video production, podcast studio, recording studio, music production, jam room, video shooting, music video shooting, music classes, karaoke venue, music recording studio near koramangala, highly rated music studios in bangalore, top music studios in bangalore, music studios near me, mixing, mastering, music classes, professional music recording studio, koramangala, bangalore', 
+  openGraph: {
+    title: 'VL Studios - Professional Audio & Video Production Services',
+    description: 'Professional audio and video production services including podcast recording, music production, jam sessions, and video shoots.',
+    type: 'website',
+    locale: 'en_US',
+    images: [
+      {
+        url: 'https://i.pinimg.com/1200x/de/da/05/deda0595dd29b9da14a6c2a39eb5fd88.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'VL Studios Recording Setup',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'VL Studios - Professional Audio & Video Production Services',
+    description: 'Professional audio and video production services including podcast recording, music production, jam sessions, and video shoots.',
+    images: ['https://i.pinimg.com/1200x/de/da/05/deda0595dd29b9da14a6c2a39eb5fd88.jpg'],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
+  },
+  verification: {
+    google: 'your-google-verification-code', // Replace with your actual Google verification code
+  },
+  alternates: {
+    canonical: 'https://vlstudios.com', // Replace with your actual domain
+  },
 };
 
 export default function RootLayout({
