@@ -872,21 +872,21 @@ export default function ContactPage() {
                       <SelectValue placeholder="Select a service" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="podcast">Podcast Production</SelectItem>
-                      <SelectItem value="recording">
+                      <SelectItem value="podcast production">Podcast Production</SelectItem>
+                      <SelectItem value="recording sessions">
                         Recording Sessions
                       </SelectItem>
-                      <SelectItem value="rehearsal">
+                      <SelectItem value="rehearsal space">
                         Rehearsal Space
                       </SelectItem>
-                      <SelectItem value="production">
+                      <SelectItem value="music production">
                         Music Production
                       </SelectItem>
-                      <SelectItem value="lessons">Music Lessons</SelectItem>
+                      <SelectItem value="music lessons">Music Lessons</SelectItem>
                       <SelectItem value="karaoke">
                         Karaoke Party Venue
                       </SelectItem>
-                      <SelectItem value="classes">Music Classes</SelectItem>
+                      <SelectItem value="music classes">Music Classes</SelectItem>
                     </SelectContent>
                   </Select>
                 </div>
