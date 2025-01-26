@@ -29,6 +29,8 @@ export default function PodcastPage() {
         <div
           className="absolute inset-0"
           style={{
+            // backgroundImage: "url('https://i.pinimg.com/736x/7e/73/1f/7e731f6b9b4086c7a3356b3461e78812.jpg')",
+
             backgroundImage: "url('https://images.unsplash.com/photo-1478737270239-2f02b77fc618?auto=format&fit=crop&q=80')",
             backgroundSize: "cover",
             backgroundPosition: "center",

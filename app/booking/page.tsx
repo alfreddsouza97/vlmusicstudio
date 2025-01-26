@@ -2037,7 +2037,7 @@ const courses: CourseOption[] = [
   { id: '7', name: 'Podcast Audio & Video Production Package - 4 Hours', price: '₹22000' },
   { id: '8', name: 'VL Studios Premium', price: '₹1000' },
   { id: '9', name: 'Intimate Sessions/karaoke sessions', price: '₹7500' },
-  { id: '10', name: 'Jam sessions', price: '₹1499' },
+  { id: '10', name: 'Jam sessions @ 550/850/1000Rs', price: '₹550' },
   { id: '11', name: 'Guitar/Keyboard Drum Group Classes', price: '₹10000' },
   { id: '12', name: '10 hours Package for Jam Session', price: '₹5000' },
   { id: '13', name: '12db - Audios services', price: '₹2499' },
