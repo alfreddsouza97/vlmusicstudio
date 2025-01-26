@@ -383,8 +383,8 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Studio Hours</h3>
             <p className="text-muted-foreground">
-              Monday - Saturday: 10:00 AM - 12:00 AM<br />
-              Sunday: By Appointment
+              Monday - Sunday: 07:00 AM - 12:00 AM<br />
+              {/* Sunday: By Appointment */}
             </p>
           </div>
         </div>
