@@ -27,7 +27,8 @@ export default function RecordingPage() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80')",
+            // backgroundImage: "url('https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80')",
+            backgroundImage: "url('https://i.ytimg.com/vi/iI_klQnlrzw/maxresdefault.jpg')",
             backgroundSize: "cover",
             backgroundPosition: "center",
           }}
