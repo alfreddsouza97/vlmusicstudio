@@ -576,7 +576,7 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Music, Mic, Radio, Headphones, BookOpen, MessageCircle } from "lucide-react";
 import Link from "next/link";
-import { Carousel1, Carousel2 } from "@/components/ui/carousel";
+import { Carousel1, Carousel2, Carousel3 } from "@/components/ui/carousel";
 
 // Metadata for the page
 export const metadata = {
@@ -759,11 +759,17 @@ export default function Home() {
               </Link>
             </div>
             <div className="relative h-[400px]">
-              <img
+              {/* <img
                 src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80"
                 alt="Studio Equipment"
                 className="rounded-lg object-cover w-full h-full"
-              />
+              /> */}
+
+<section>
+        <h1 className="text-center text-3xl font-bold my-8">Explore our Studio</h1>
+        <Carousel3 />
+
+      </section>
             </div>
           </div>
         </div>

@@ -331,6 +331,21 @@ const images2 = [
   
 ];
 
+
+//adding extra carousel
+
+const images3 = [
+  "https://i.pinimg.com/736x/a9/b4/1d/a9b41d6aaaaf67ee9900ae83fed074b9.jpg",
+  "https://i.pinimg.com/1200x/e8/c6/8e/e8c68e98cb0df5c75485d5d51b0a3adf.jpg",
+  "https://i.pinimg.com/1200x/0d/2a/91/0d2a9173536ee208b42f837ea6496ae1.jpg",
+  "https://i.pinimg.com/736x/b9/34/f1/b934f1c2282b5c22b751d8824e900184.jpg",
+  "https://i.pinimg.com/1200x/94/15/4e/94154ee11f3e2a3f6c5aa3f2c643240e.jpg",
+  "https://i.pinimg.com/1200x/e5/48/ad/e548adba23c55bd9cd0a23bd2721cb74.jpg",
+  "https://images.jdmagicbox.com/v2/comp/bangalore/z2/080pxx80.xx80.131030110126.m6z2/catalogue/vl-music-studio-koramangala-1st-block-bangalore-music-production-houses-1hp8h0exaw.jpg",
+  "https://i.ytimg.com/vi/rwGrcQ68GA4/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gKSgyMA8=&rs=AOn4CLANlqySEpjZOyAHKm2qk85o3IWLXg",
+  "https://i.pinimg.com/736x/8c/ab/1e/8cab1e6861bbc8b3914c0f660fe0544c.jpg",
+];
+
 export const Carousel1 = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -575,6 +590,87 @@ export const Carousel2 = () => {
   );
 };
 
+// third carousel in homepage side of images3
+
+export const Carousel3 = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  // Automatically slide every 5 seconds
+  useEffect(() => {
+    const interval = setInterval(() => {
+      handleNext();
+    }, 5000); // Change image every 5 seconds
+    return () => clearInterval(interval); // Cleanup interval on unmount
+  }, [currentIndex]);
+
+  // Go to the next image
+  const handleNext = () => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % images3.length);
+  };
+
+  // Go to the previous image
+  const handlePrev = () => {
+    setCurrentIndex((prevIndex) =>
+      prevIndex === 0 ? images.length - 1 : prevIndex - 1
+    );
+  };
+
+  // Go to a specific image
+  const goToImage = (index: number) => {
+    setCurrentIndex(index);
+  };
+
+  return (
+    <div className="relative w-full max-w-4xl mx-auto">
+      {/* Image Container */}
+      <div className="relative overflow-hidden">
+        <div
+          className="flex transition-transform duration-700 ease-in-out"
+          style={{
+            transform: `translateX(-${currentIndex * 100}%)`,
+          }}
+        >
+          {images3.map((src, index) => (
+            <div key={index} className="w-full flex-shrink-0">
+              <img
+                src={src}
+                alt={`Carousel image ${index + 1}`}
+                className="w-full h-[300px] object-cover rounded-lg"
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Navigation Arrows */}
+      <button
+        className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-black/50 text-white p-2 rounded-full z-10 hover:bg-black/70"
+        onClick={handlePrev}
+      >
+        &#8249; {/* Left Arrow */}
+      </button>
+      <button
+        className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-black/50 text-white p-2 rounded-full z-10 hover:bg-black/70"
+        onClick={handleNext}
+      >
+        &#8250; {/* Right Arrow */}
+      </button>
+
+      {/* Indicators */}
+      <div className="flex justify-center mt-4">
+        {images3.map((_, index) => (
+          <button
+            key={index}
+            className={`w-3 h-3 rounded-full mx-1 ${
+              currentIndex === index ? "bg-primary" : "bg-gray-400"
+            }`}
+            onClick={() => goToImage(index)}
+          ></button>
+        ))}
+      </div>
+    </div>
+  );
+};
 
 
 //extra
