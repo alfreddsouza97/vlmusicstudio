@@ -336,13 +336,13 @@ const images2 = [
 
 const images3 = [
   "https://i.pinimg.com/736x/a9/b4/1d/a9b41d6aaaaf67ee9900ae83fed074b9.jpg",
-  "https://i.pinimg.com/1200x/e8/c6/8e/e8c68e98cb0df5c75485d5d51b0a3adf.jpg",
+  // "https://i.pinimg.com/1200x/e8/c6/8e/e8c68e98cb0df5c75485d5d51b0a3adf.jpg",
   "https://i.pinimg.com/1200x/0d/2a/91/0d2a9173536ee208b42f837ea6496ae1.jpg",
   "https://i.pinimg.com/736x/b9/34/f1/b934f1c2282b5c22b751d8824e900184.jpg",
   "https://i.pinimg.com/1200x/94/15/4e/94154ee11f3e2a3f6c5aa3f2c643240e.jpg",
   "https://i.pinimg.com/1200x/e5/48/ad/e548adba23c55bd9cd0a23bd2721cb74.jpg",
-  "https://images.jdmagicbox.com/v2/comp/bangalore/z2/080pxx80.xx80.131030110126.m6z2/catalogue/vl-music-studio-koramangala-1st-block-bangalore-music-production-houses-1hp8h0exaw.jpg",
-  "https://i.ytimg.com/vi/rwGrcQ68GA4/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gKSgyMA8=&rs=AOn4CLANlqySEpjZOyAHKm2qk85o3IWLXg",
+  // "https://images.jdmagicbox.com/v2/comp/bangalore/z2/080pxx80.xx80.131030110126.m6z2/catalogue/vl-music-studio-koramangala-1st-block-bangalore-music-production-houses-1hp8h0exaw.jpg",
+  // "https://i.ytimg.com/vi/rwGrcQ68GA4/hqdefault.jpg?sqp=-oaymwEmCOADEOgC8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGH8gKSgyMA8=&rs=AOn4CLANlqySEpjZOyAHKm2qk85o3IWLXg",
   "https://i.pinimg.com/736x/8c/ab/1e/8cab1e6861bbc8b3914c0f660fe0544c.jpg",
 ];
 
