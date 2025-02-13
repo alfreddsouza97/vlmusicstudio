@@ -1058,7 +1058,8 @@ export default function ContactPage() {
                     </p>
                     <div className="w-full h-48 rounded-lg overflow-hidden">
                       <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.389708275254!2d77.63399631482233!3d12.934490190886972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15c505000001%3A0x6c13d32b5e6cc3c8!2sVL%20Studios!5e0!3m2!1sen!2sin!4v1646469125799!5m2!1sen!2sin"
+                        // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.389708275254!2d77.63399631482233!3d12.934490190886972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae15c505000001%3A0x6c13d32b5e6cc3c8!2sVL%20Studios!5e0!3m2!1sen!2sin!4v1646469125799!5m2!1sen!2sin"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15554.332720244018!2d77.633996!3d12.93449!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1463b50e50cf%3A0xef04b9a66ee0d686!2sVL%20Studios%20(Audio%20Recording%20Studio%20%26%20Jam%20Room)!5e0!3m2!1sen!2sin!4v1739462624866!5m2!1sen!2sin"
                         width="100%"
                         height="100%"
                         style={{ border: 0 }}
