@@ -2541,7 +2541,9 @@ function Booking() {
       {/* Hero Section */}
       <div className="relative h-[40vh] w-full">
         <Image
-          src="https://i.ytimg.com/vi/iI_klQnlrzw/maxresdefault.jpg"
+          // src="https://i.ytimg.com/vi/iI_klQnlrzw/maxresdefault.jpg"
+          //  src="https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80"
+           src = "https://i.pinimg.com/736x/23/45/6f/23456f3538af5f20726ca92be671994d.jpg"
           alt="Studio Background"
           fill
           className="object-cover brightness-50"
